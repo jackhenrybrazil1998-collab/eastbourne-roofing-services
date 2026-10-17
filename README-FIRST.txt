@@ -12,7 +12,7 @@ ON IPHONE / iPAD:
 4. Keep the existing file pirate-hero.jpg in the ROOT of the new repository.
 5. GitHub repo Settings > Pages > Deploy from a branch > main > /(root) > Save.
 6. Wait for GitHub Pages to build. The default site address is:
-   https://jackhenrybrazil1998-collab.github.io/eastbourne-roofing-services/
+   https://eastbourneroofingservices.co.uk/
 
 DO NOT EDIT the existing London repo (jb-property-developments).
 
@@ -42,3 +42,6 @@ PRE-PUBLISH CHECKS:
 - Review privacy notice, form activation, emergency availability and any guarantees before publishing.
 
 FILES: 404.html, chimney-leadwork.html, emergency-roof-repairs.html, flat-roofing.html, free-drone-inspections.html, gutter-cleaning.html, guttering-fascias-soffits.html, index.html, new-roofs.html, painting-decorating.html, privacy.html, roof-repairs.html, roofers-eastbourne.html, roofers-hailsham.html, roofers-hampden-park.html, roofers-langney.html, roofers-meads.html, roofers-old-town-eastbourne.html, roofers-pevensey.html, roofers-polegate.html, roofers-sovereign-harbour.html, roofers-stone-cross.html, roofers-westham.html, roofers-willingdon.html, shop.html, slate-tile-roofing.html
+
+Custom domain: https://eastbourneroofingservices.co.uk/
+DNS records are managed in 123 Reg. Confirm GitHub Pages DNS and HTTPS before submitting sitemap to Search Console.
