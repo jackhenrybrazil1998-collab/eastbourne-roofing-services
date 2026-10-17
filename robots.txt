@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jackhenrybrazil1998-collab.github.io/eastbourne-roofing-services/sitemap.xml
