@@ -8,3 +8,25 @@
 @media(max-width:620px){.wrap{width:calc(100% - 30px)}.top .brand{font-size:clamp(16px,4.4vw,20px)}.top .brand small{font-size:9px}.bar{min-height:66px}.bar>.btn{padding:8px;font-size:12px}.hero-photo img{max-height:250px}.hero-bottom{padding:25px 0}.hero-bottom h1{font-size:27px}.hero-actions{width:100%}.hero-actions .btn{flex:1;padding:11px 9px}.trustbar{grid-template-columns:repeat(2,1fr)}.trustbar span{font-size:12px;padding:11px 4px}.section{padding:42px 0}.page-hero{padding:43px 0}.page-hero p{font-size:17px}.grid,.cards4{gap:10px}.card img{height:auto;aspect-ratio:4/3}.card-content{padding:12px}.card h3{font-size:16px}.card p{font-size:12px;line-height:1.48}.card .more{font-size:12px}.area-card{padding:13px}.area-card h3{font-size:17px}.area-card p{font-size:12px}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.mini-grid,.product-grid{grid-template-columns:1fr 1fr}.callstrip{flex-direction:column;align-items:stretch}.foot-grid{grid-template-columns:1fr}.buttons .btn{flex:1}.product{padding:13px}.product h3{font-size:16px}}
 @media(max-width:380px){.bar>.btn{display:none}.grid,.cards4{grid-template-columns:1fr}.card img{aspect-ratio:16/8}.mini-grid,.product-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+
+
+/* Eastbourne 24/7 emergency contact callout, matching the requested familiar layout. */
+.ers-emergency-wrap{padding-top:24px;padding-bottom:5px}
+.ers-emergency-banner{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:22px;max-width:1040px;margin:12px 0 24px;padding:24px 28px;background:linear-gradient(120deg,#1c3440,#12242f);border:1px solid rgba(255,206,131,.45);border-left:5px solid #f5b85e;border-radius:14px;box-shadow:0 12px 26px rgba(0,0,0,.2)}
+.ers-emergency-banner .ers-emergency-copy{flex:1 1 370px;min-width:0}
+.ers-emergency-banner .ers-emergency-eyebrow{display:block;color:#ffd08a;font-weight:800;font-size:11px;letter-spacing:1.6px;margin-bottom:8px}
+.ers-emergency-banner h2{font-size:clamp(22px,3vw,30px);line-height:1.17;letter-spacing:-.5px;color:#fff}
+.ers-emergency-banner p{font-size:14px;line-height:1.6;color:#edf0f2;margin:10px 0 0;max-width:680px}
+.ers-emergency-banner .ers-emergency-call{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:14px 22px;min-height:65px;min-width:230px;background:#ffcc79;color:#17212b;border-radius:9px;border:2px solid #ffe0ab;font-weight:800;box-shadow:0 4px 0 rgba(0,0,0,.2);text-decoration:none}
+.ers-emergency-banner .ers-emergency-call:hover,.ers-emergency-banner .ers-emergency-call:focus-visible{background:#ffe0a6;outline:3px solid #fff;outline-offset:3px}
+.ers-emergency-banner .ers-emergency-call-label{font-size:12px;letter-spacing:.8px;text-transform:uppercase}
+.ers-emergency-banner .ers-emergency-number{font-size:23px;letter-spacing:.25px;line-height:1.2;white-space:nowrap}
+.ers-emergency-banner .ers-emergency-contacts{display:flex;flex-direction:column;gap:10px;flex:0 0 245px;max-width:100%}
+.ers-emergency-banner .ers-emergency-mobile{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:62px;padding:10px 18px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.48);border-radius:9px;color:#fff;text-decoration:none}
+.ers-emergency-banner .ers-emergency-mobile-label{font-size:12px;font-weight:800;letter-spacing:.9px;text-transform:uppercase;color:#ffd08a}
+.ers-emergency-banner .ers-emergency-mobile-number{font-size:22px;font-weight:800;letter-spacing:.25px;white-space:nowrap;line-height:1.25}
+.ers-emergency-banner .ers-emergency-mobile:hover,.ers-emergency-banner .ers-emergency-mobile:focus-visible{background:rgba(255,255,255,.18);outline:3px solid #fff;outline-offset:3px}
+@media(max-width:700px){.ers-emergency-banner{padding:20px 18px;gap:16px;margin:8px 0 21px}.ers-emergency-banner .ers-emergency-copy{flex-basis:100%}.ers-emergency-banner .ers-emergency-contacts{flex:1 1 100%;width:100%}.ers-emergency-banner .ers-emergency-call{width:100%;min-width:0}.ers-emergency-banner .ers-emergency-number{font-size:23px}}
+
+.ers-emergency-banner{margin:0 auto 20px}
+@media(max-width:700px){.ers-emergency-wrap{padding-top:14px;padding-bottom:3px}.ers-emergency-banner{margin:0 auto 14px}}
